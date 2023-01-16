@@ -1,4 +1,16 @@
-@import "~/bootstrap";
+@import "~bootstrap";
+@import "variables.scss";
+@import "partials/header.scss";
+@import "partials/page.scss";
 
+body {
+    font-family: 'Comfortaa', cursive;
+    height: 100vh;
+    overflow-y: hidden;
+}
 
+main {
+    height: calc(100% - 3rem);
+    background-color: $secundary-color;
+}
 
